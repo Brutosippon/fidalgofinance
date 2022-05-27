@@ -21,9 +21,29 @@
         <link href="/static/styles.css" rel="stylesheet">
         <title>Fidalgo: {% block title %}{% endblock %}</title>
 
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- py-scripty -->
+        <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+        <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+        <py-env>
+- numpy
+- pandas
+- altair
+- pandas
+- vega_datasets
+        </py-env>
+
     </head>
 
     <body class="bg-black text-white black">
+        <py-script> 
+import pandas as pandas
+import numpy as np
+import math
+        </py-script>
 
         <nav class="navbar navbar-expand-md black">
             <a class="navbar-brand" href="/" ><img class="xs" src="/static/fidalgo_logo.webp" width="100px" alt="Finance"></a>
