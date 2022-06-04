@@ -1,0 +1,89 @@
+Ref;balanco
+;Ativo
+;1 - Ativo Não Corrente
+B_1_1_1;Terrenos e Recursos Naturais
+B_1_1_2;Edifícios e outras construções
+B_1_1_3;Equipamento básico
+B_1_1_4;Equipamento de transporte
+B_1_1_5;Equipamento administrativo
+A_1_1_5;Ativos  biológicos
+B_1_1_6;Outros Ativos fixos tangíveis
+A_1_1_1;Ativos fixos tangíveis
+B_1_1_7;Terrenos e recursos naturais
+B_1_1_8;Edifícios e outras construções
+B_1_1_13;Investimentos em curso
+A_1_1_2;Propriedades de investimento
+A_1_1_3;Trespasse (goodwill)
+B_1_1_10;Propriedade, direito e contratos
+B_1_1_11;Programas de computador
+B_1_1_12;Propriedade industrial
+B_1_1_9;Outros ativos intangiveis
+A_1_1_4;Ativos intangíveis
+A_1_1_6;Participações financeiras- MEP
+A_1_1_7;Participações financeiras- outros métodos
+A_1_1_8;Accionistas/sócios
+A_1_1_9;Outros Ativos financeiros
+A_1_1_10;Ativos por impostos diferidos
+A_1_2_12;Outros ativos
+;2 - Ativo corrente
+A_1_2_2;Ativos biológicos
+B_1_2_1;Mercadorias
+B_1_2_2;Produtos acabados e intermédios
+B_1_2_3;Subprodutos, desperdícios, resíduos e refugos
+B_1_2_4;Produtos e trabalhos em curso
+B_1_2_5;Matérias-primas, subsidiárias e de consumo
+B_1_2_6;Outros produtos de consumo
+A_1_2_1;Inventários
+B_1_2_7;Recebíveis de Terceiros Curto Prazo
+A_1_2_3;Clientes
+A_1_2_4;Adiantamentos a fornecedores
+A_1_2_5;Estado e outros entes públicos
+A_1_2_6;Accionistas/sócios
+A_1_2_7;Outras contas a receber
+A_1_2_13;Ativos não correntes detidos para venda (ANCDV)
+A_1_2_9;Ativos financeiros detidos para negociação
+A_1_2_10;Outros Ativos financeiros
+A_1_2_11;Caixa e depositos bancários
+A_1_2_8;Diferimentos
+A_1;3 - Total do Ativo
+;Capital próprio
+;4 - Capital próprio
+EX_1_1_1;Capital realizado
+EX_1_1_2;Acções (quotas) próprias
+EX_1_1_3;Prestações suplementares e outros instrumentos de capital próprio
+EX_1_1_4;Prémios de emissão
+EX_1_1_5;Reservas legais e estatutárias
+EX_1_1_6;Outras reservas
+EX_1_1_7;Excedentes de revalorização
+EX_1_1_8;Ajustamentos em Ativos financeiros
+EX_1_1_9;Outras variações no capital próprio
+EX_1_1_10;Resultados transitados
+EX_1_1_11;Resultado líquido do periodo
+EX_1_1;Total do capital próprio 
+;Passivo
+;5 - Passivo não corrente
+EX_1_2_1;Provisões
+B_1_3_1;Financiamentos Fornecedores
+B_1_3_2;Financiamentos Bancários
+EX_1_2_7;Financiamentos Empresa Mãe/Acionistas/Sócios
+B_1_3_3;Outros Financiamentos obtidos
+EX_1_2_2;Financiamentos obtidos
+EX_1_2_3;Acionista / sócios
+EX_1_2_4;Passivos por impostos diferidos
+EX_1_2_5;Outras contas a pagar
+;6 - Passivo corrente
+EX_1_3_1;Fornecedores
+EX_1_3_2;Adiantamento de clientes
+B_1_4_1;Imparidades
+EX_1_3_3;Estado e outros entes públicos
+EX_1_3_4;Accionistas/sócios
+B_1_4_2;Financiamentos Bancários
+B_1_4_3;Financiamentos Empresa Mãe/Acionistas/Sócios
+B_1_4_4;Outros Financiamentos obtidos
+EX_1_3_5;Financiamentos obtidos
+EX_1_3_6;Outras contas a pagar
+EX_1_3_7;Passivos financeiros detidos para negociação
+EX_1_3_8;Outros passivos financeiros
+EX_1_3_13;Diferimentos
+EX_1_4;7 - Total do Passivo
+EX_1;8 - Total do capital próprio e do passivo

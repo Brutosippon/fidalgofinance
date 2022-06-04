@@ -1,0 +1,335 @@
+Criar um programa que devolve a numero da linha
+ls - list content
+cd.. - change directory
+pwd - where i am
+mkdir -  new folder
+rm - remover
+mv hello.c hi.c
+cp (nome ficheiro) (novo nome) - copy
+rmdir
+
+pesquisar try execpt 
+--------
+CS50
+--------
+HTML
+@app.route("/register", methods=["GET", "POST"])
+def register():
+    """Register user"""
+    if request.method == "POST":
+        result_checks = is_provided("username") or is_provided("password") or is_provided("Confirm Password")
+        if result_checks != None:
+            return result_checks
+        try:
+        primary_key = db.execute("INSERT INTO users (username, hash) VALUES (:username, :hash)", username=request.form.get("username"), hash=generate_password_hash(request.form.get("password")))
+
+        if primary_key is None:
+            return apology("Not Register",403)
+        session["user_id"] = primary_key
+        redirect("/")
+---------------------------------------------------
+
+
+        # Ensure username was submitted
+#        if not request.form.get("username"):
+#            return apology("must provide username", 403)
+
+        # Ensure password was submitted
+#        elif not request.form.get("password"):
+#            return apology("must provide password", 403)
+
+        # Query database for username
+#        rows = db.execute("SELECT * FROM users WHERE username = ?", request.form.get("username"))
+
+        # Ensure username exists and password is correct
+#        if len(rows) != 1 or not check_password_hash(rows[0]["hash"], request.form.get("password")):
+#            return apology("invalid username and/or password", 403)
+
+
+
+
+https://cloud.iexapis.com/stable/stock/nflx/quote?token=API_KEY
+export API_KEY=pk_9d85ff902d6e4e1b925165b01b9597f9 
+https://cloud.iexapis.com/stable/stock/nflx/quote?token=pk_9d85ff902d6e4e1b925165b01b9597f9  
+
+
+{"symbol":"NFLX","companyName":"NetFlix Inc","primaryExchange":"NASDAQ/NGS (GLOBAL SELECT MARKET)","calculationPrice":"iexlasttrade","open":null,"openTime":null,"openSource":"official","close":null,"closeTime":null,"closeSource":"official","high":null,"highTime":null,"highSource":null,"low":null,"lowTime":null,"lowSource":null,"latestPrice":494.68,"latestSource":"IEX Last Trade","latestTime":"June 4, 2021","latestUpdate":1622836799296,"latestVolume":null,"iexRealtimePrice":494.68,"iexRealtimeSize":3,"iexLastUpdated":1622836799296,"delayedPrice":null,"delayedPriceTime":null,"oddLotDelayedPrice":null,"oddLotDelayedPriceTime":null,"extendedPrice":null,"extendedChange":null,"extendedChangePercent":null,"extendedPriceTime":null,"previousClose":489.43,"previousVolume":3887445,"change":5.25,"changePercent":0.01073,"volume":null,"iexMarketPercent":0.05561232196326868,"iexVolume":175252,"avgTotalVolume":3200045,"iexBidPrice":0,"iexBidSize":0,"iexAskPrice":0,"iexAskSize":0,"iexOpen":494.31,"iexOpenTime":1622836785081,"iexClose":494.68,"iexCloseTime":1622836799296,"marketCap":218547154557,"peRatio":59.89,"week52High":593.29,"week52Low":404.25,"ytdChange":-0.08414174745251791,"lastTradeTime":1622836799940,"isUSMarketOpen":false}
+
+
+-----
+http-server
+
+------------
+SQLitte3
+------------
+sqlite3 file_name.db
+
+
+<a class="unit-link" href="/imac-24/" target="_self" rel="follow" data-analytics-region="learn more" aria-hidden="true" tabindex="-1">&nbsp;</a>
+
+class="row col-sm-* offset-sm-*"
+class="bg-dark col-xs-12 col-sm-12 col-md-6 text-center text-white overflow-hidden"
+
+SELECT
+FROM
+WHERE
+ORDER BY
+;
+
+JOIN xx ON table2.x_id = table1.id
+WHERE  IN (SELECT xx FROM xxx
+
+-----------
+get_boll
+get_ char
+get_double
+get_float
+get_int
+get_long
+get_string
+
+----------------------
+Python
+from sys import argv
+from cs50 import get_int
+Import cs50
+------------
+import csv
+
+# Open CSV file
+with open("Favorite TV Shows - Form Responses 1.csv", "r") as file:
+
+    # Create DictReader
+    reader = csv.DictReader(file)
+
+    # Iterate over CSV file, printing each title
+    for row in reader:
+        print(row["title"])
+--------
+Dictionary
+----
+QR_code programe
+----
+import os
+import qrcode
+
+# Generate QR code
+img = qrcode.make(input("URL:"))
+
+# Save as file
+img.save("qrnew.png", "PNG")
+
+# Open file
+os.system("open qrnew.png")
+
+------------
+from cs50 import get_string
+
+people = {
+    "Brian": "+1-617-495-1000",
+    "David": "+1-949-468-2750"
+}
+
+# Search for name
+name = get_string("Name: ")
+if name in people:
+    print("Number:", people[name])
+---------------------------------------------
+from cs50 import get_int
+
+# Get scores
+scores = []
+for i in range(3):
+    scores.append(get_int("Score: "))
+
+# Print average
+print("Average:" , sum(scores) / len(scores))
+----------
+import cs50
+
+# Prompt user for x
+x = cs50.get_int("x: ")
+
+# Prompt user for y
+y = cs50.get_int("y: ")
+---
+
+From cs50 import get_int
+
+# Prompt user for x
+x = get_int("x: ")
+
+# Prompt user for y
+y = get_int("y: ")
+
+---------
+if x < y:
+    print("x is less than y")
+elif x > y:
+    print("x is greater than y")
+else:
+    print("x is equal to y")
+
+---------
+# Abstraction with parameterization
+n = int(input("NÂº: "))
+def main():
+    meow(n)
+
+# Meow some number of times
+def meow(n):
+    for i in range(n):
+        print("meow")
+
+main()
+
+----------------------
+-------------------
+----------------
+
+
+@175252ju
+
+ls - list content
+cd.. - change directory
+pwd - where i am
+mkdir -  new folder
+rm - remover
+mv hello.c hi.c
+cp (nome ficheiro) (novo nome) - copy
+rmdir
+get_boll
+get_ char
+get_double
+get_float
+get_int
+get_long
+get_string
+
+
+------------------
+------------------
+//Aux:
+//make hi
+//./hi
+//style50 hi.c
+//help50 make hi
+//check50 cs50/problems/hi
+//debug50 ./buggy0
+//valgrind ./
+//help50 valgrind ./
+
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <math.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <time.h>
+
+int main(void)
+{
+
+}
+------------------
+------------------
+
+------------------
+#include <cs50.h>
+#include <stdio.h>
+int main(void)
+{
+    long x = get_long("x: ");
+    long y = get_long("y: ");
+    printf("%li\n", x + y);
+}
+-----------------
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    char c = get_char("do you agree?\n");
+    if (c == 'y' || c == 'Y')
+    {
+        printf("agree.\n");
+    }
+    else if (c == 'n' || c == 'N')
+    {
+        printf(" not agreed.\n");
+    }
+}
+-----------------
+#include <cs50.h>
+#include <stdio.h>
+int main(void)
+{
+    int x = get_int("x: ");
+    int y = get_int("y: ");
+    printf("%i\n", x + y);
+}
+-----------------
+
+#include <cs50.h>
+#include <stdio.h>
+int main(void)
+{
+    printf("hello, world \n");
+    string answer = get_string("What's your name?\n Nome: ");
+    printf("hello, %s! \n", answer)
+}
+-------------------
+
+int cap(int value)
+{
+	// se value  > 255 then return 255 if not return value
+    return value > 255 ? 255 : value;
+}
+...
+image [i][j].rgbtRed = cap(round(0.393 * originalRed + 0.769 * originalGreen + 0.189 * originalBlue));
+        image [i][j].rgbtGreen = cap(round(0.349 * originalRed + 0.686 * originalGreen + 0.168 * originalBlue));
+        image [i][j].rgbtBlue = cap(round(0.272 * originalRed + 0.534 * originalGreen + 0.131 * originalBlue));
+_____________________________
+
+void swap(RGBTRIPLE *pixel1, RGBTRIPLE *pixel2)
+{
+    RGBTRIPLE temp = *pixel1;
+    *pixel1 = *pixel2;
+    *pixel2 = temp;
+}
+
+---------------------
+argc is the number of arguments being passed into your program from the command line
+argv is the array of arguments.
+You can loop through the arguments knowing the number of them like:
+
+for(int i = 0; i < argc; i++) {
+	// argv[i] is the argument at index i
+	}
+
+
+FILE
+fopen
+fprintf
+fread
+fclose
+a add
+r read
+w write
+    // Open CSV file
+    FILE *file = fopen("phonebook.csv", "a");
+    if (!file)
+    {
+        return 1;
+    }
+
+    // Get name and number
+    string name = get_string("Name: ");
+    string number = get_string("Number: ");
+
+    // Print to file
+    fprintf(file, "%s,%s\n", name, number);
+
+    // Close file
+    fclose(file);
